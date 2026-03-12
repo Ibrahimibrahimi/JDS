@@ -5,6 +5,7 @@ public class Main {
         test.addData(50);
         test.addData("ibrahim");
         test.addData(12.5);
+        test.addNode(new Node(12));;
         System.out.println(test.toString());
     }
 }
