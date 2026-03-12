@@ -14,5 +14,6 @@ public class Main {
                 new Node(1),
                 new Node(55));
         System.out.println(l.toString());
+        System.out.println(l.);
     }
 }
