@@ -73,4 +73,7 @@ public class LinkedList {
         }
         return "[NODE DATA]";
     }
+    public int getSize(){
+        return SIZE;
+    }
 }
