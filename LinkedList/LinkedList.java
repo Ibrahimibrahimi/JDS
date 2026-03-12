@@ -14,5 +14,17 @@ public class LinkedList {
         this.SIZE = 1;
     }
     
+    public void addNode(Node node) {
+        // if no head => add as head , if head => add as last item
+        if (this.HEAD == null){
+            this.HEAD = node;
+            return;
+        }
+        Node temp = this.HEAD;
+        while(temp.getNext() != null){
+            temp = temp.getNext();
+        }
+        temp.addNext(node);
+    }
 
 }
