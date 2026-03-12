@@ -2,9 +2,9 @@
 
 ## In progress :
 `
-- Linked lists
+- Tree
 `
 ## Completed : 
 `
-- Nothing yet
+- LinkedList
 `
