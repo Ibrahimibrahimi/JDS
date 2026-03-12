@@ -36,6 +36,11 @@ public class LinkedList {
         Node node = new Node(data);
         this.addNode(node); // TAIL and SIZE are update throught this
     }
+    public void addNodes(Node ...node){
+        for(Node n : node){
+            addNode(n);
+        }
+    }
 
     public String toString() {
         /*
@@ -52,6 +57,8 @@ public class LinkedList {
             OUTPUT += this.sep;
             temp = temp.getNext(); // pass to next
         }
+        OUTPUT += this.output(this.TAIL); // dont forget me
+        OUTPUT += this.sep;
         OUTPUT += "[NULL]";
         return OUTPUT;
     }
